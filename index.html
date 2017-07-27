@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>BusMall Order Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+
+  <h1>BusMall Order Form</h1>
+  <h4>Select your desired product</h4>
+  <p>Fill out the following form then Add To Cart</p>
+
+  <select id="selected">
+     <option value="selected" selected="selected">Select</option>
+     <option value="img/bag.jpg">bag</option>
+     <option value="img/banana.jpg">banana</option>
+     <option value="img/bathroom.jpg">bathroom</option>
+     <option value="img/boots.jpg">boots</option>
+     <option value="img/breakfast.jpg">breakfast</option>
+     <option value="img/bubblegum.jpg">bubblegum</option>
+     <option value="img/chair.jpg">chair</option>
+     <option value="img/cthulhu.jpg">cthulhu</option>
+     <option value="img/dog-duck.jpg">dog-duck</option>
+     <option value="img/dragon.jpg">dragon</option>
+     <option value="img/pen.jpg">pen</option>
+     <option value="img/pet-sweep.jpg">pet-sweep</option>
+     <option value="img/scissors.jpg">scissors</option>
+     <option value="img/shark.jpg">shark</option>
+     <option value="img/sweep.jpg">sweep</option>
+     <option value="img/tauntaun.jpg">tauntaun</option>
+     <option value="img/unicorn.jpg">unicorn</option>
+     <option value="img/usb.jpg">usb</option>
+     <option value="img/water-can.jpg">water-can</option>
+     <option value="img/wine-glass.jpg">wine-glass</option>
+   </select>
+
+  <form id="orderForm">
+    <fieldset>
+      <legend>Enter Your Order Here</legend>
+      <label for="name">Name: </label>
+      <input name="name" type="text" />
+      <label for="street">Street:  </label>
+      <input name="street" type="text" size="50" />
+      <label for="city">City:  </label>
+      <input name="city" type="text" size="50" />
+      <label for="state">State:  </label>
+      <input name="state" type="text" size="50" />
+      <label for="zip">ZIP Code:  </label>
+      <input name="zip" type="text" size="50" />
+      <label for="phone">Phone Number:  </label>
+      <input name="phone" type="text" size="50" />
+      <label for="credit">Credit Card Number:  </label>
+      <input name="credit" type="number" size="50" />
+
+      <form action="/action_page.php">
+        <label for="qnty">Quantity:  </label>
+        <input id="qnty" type="number" name="points" step="">
+      </form>
+
+      <button id="addToCart" type="submit"><a href="file:///Users/adamwalls/codefellows/201/order-form/cart.html">Add To Cart</button></a>
+
+    </fieldset>
+  </form>
+
+  <!-- <button id="clear-chat-list">Cancel Order</button> -->
+
+  <!-- <ul id="chat-list">Here is the textContent of the UL</ul> -->
+
+  <script src="app.js"></script>
+ </body>
+
+</html>

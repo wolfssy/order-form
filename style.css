@@ -1,0 +1,20 @@
+#orderForm{
+  width: 400px;
+}
+select{
+  margin: 20px;
+}
+label, form, button{
+  display: block;
+  margin: 3px;
+  overflow: auto;
+}
+#qnty{
+  margin-top: 10px;
+  display: block;
+}
+button{
+  position: relative;
+  left: 270px;
+  bottom: 0px;
+}
